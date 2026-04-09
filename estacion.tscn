@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://0v3i8gebegkq"]
+
+[ext_resource type="Texture2D" uid="uid://bpkcr18hrk20w" path="res://icon.svg" id="1_gmund"]
+
+[node name="Estacion" type="Node3D" unique_id=392399439]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=2140512136]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1173635, 0)
+size = Vector3(20, 0.1, 20)
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=575386933]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8660946, 0)
+billboard = 1
+texture = ExtResource("1_gmund")
